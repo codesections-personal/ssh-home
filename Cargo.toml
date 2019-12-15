@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 clap = { git = "https://github.com/clap-rs/clap" }
 run_script = "0.3.2"
+boolinator = "2.4.0"
 
 
 
