@@ -154,7 +154,7 @@ dependencies = [
 
 [[package]]
 name = "run_script"
-version = "0.3.2"
+version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "rand 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -167,7 +167,8 @@ version = "0.1.0"
 dependencies = [
  "boolinator 2.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "clap 3.0.0-beta.1 (git+https://github.com/clap-rs/clap)",
- "run_script 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "run_script 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "utils 0.1.0",
 ]
 
 [[package]]
@@ -209,6 +210,14 @@ version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "libc 0.2.66 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "utils"
+version = "0.1.0"
+dependencies = [
+ "clap 3.0.0-beta.1 (git+https://github.com/clap-rs/clap)",
+ "run_script 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -260,7 +269,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum rand_chacha 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "03a2a90da8c7523f554344f921aa97283eadf6ac484a6d2a7d0212fa7f8d6853"
 "checksum rand_core 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)" = "90bde5296fc891b0cef12a6d03ddccc162ce7b2aff54160af9338f8d40df6d19"
 "checksum rand_hc 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ca3129af7b92a17112d59ad498c6f81eaf463253766b90396d39ea7a39d6613c"
-"checksum run_script 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)" = "61b3a5ed82e15afc3e238178e2d22113af69ac88bd64a04499f025478853937f"
+"checksum run_script 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)" = "2dfbbb48b9c7ee71baadd968640f81ca4bc930c1a2029441eede96a6933275ac"
 "checksum strsim 0.9.3 (registry+https://github.com/rust-lang/crates.io-index)" = "6446ced80d6c486436db5c078dde11a9f73d42b57fb273121e160b84f63d894c"
 "checksum syn 0.15.44 (registry+https://github.com/rust-lang/crates.io-index)" = "9ca4b3b69a77cbe1ffc9e198781b7acb0c7365a883670e8f1c1bc66fba79a5c5"
 "checksum textwrap 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d326610f408c7a4eb6f51c37c330e496b08506c9457c9d34287ecc38809fb060"
