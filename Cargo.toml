@@ -11,6 +11,7 @@ clap = { git = "https://github.com/clap-rs/clap" }
 run_script = "0.6.0"
 boolinator = "2.4.0"
 utils = {path = "../utils"}
+d5_cli = {path = "../d5_cli"}
 
 [profile.release]
 lto = true
